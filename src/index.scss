@@ -1,5 +1,13 @@
 @import '~carbon-components/scss/globals/scss/styles.scss';
 
+@font-face {
+  font-family: 'CircularStdMedium';
+  src: local('CircularStdMedium'), url(./fonts/CircularStd-Medium.otf) format('truetype');}
+
+  @font-face {
+    font-family: 'CircularStdBlack';
+    src: local('CircularStdBlack'), url(./fonts/CircularStd-Black.otf) format('truetype');}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,9 +15,58 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: CircularStdMedium;
+  height: 100%;
+  
+ 
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  
 }
+
+.Background{
+  background-image: url("./pictures/building.jpg");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: contain;  
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.blackBanner{
+  width: 100%;
+  background-color: #161616;
+  color: #F4F4F4;
+  height: 3%;
+}
+
+.blackBanner > p{
+  margin-left: 1%;
+}
+
+#AppLoginContainer{
+margin: 5%;
+}
+
+.title {
+  color:#255AA8;
+  
+  
+  font-size: 32px;
+}
+
+.inputs{
+  width: 400px;  
+}
+
+.checkBs{
+  margin: 10px;
+}
+
+TextInput + TextInput{
+  margin: 5%;
+}
+
+

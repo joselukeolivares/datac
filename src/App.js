@@ -1,27 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import { Button } from 'carbon-components-react';
+import logo from './assets/logo.png';
+import './index.scss';
+import {BrowserRouter} from 'react-router-dom'
+import MainRouter from './MainRouter';
+import {hot} from 'react-hot-loader'
+import Login from './Login';
+import Home from './pages/home/home';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button>Hello React!</Button>
-      </header>
-    </div>
+       
+          <BrowserRouter>                         
+              <MainRouter></MainRouter>
+          </BrowserRouter>
+
+      
   );
 }
 
-export default App;
+export default hot(module)(App);
