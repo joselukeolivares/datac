@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/components/cardCategory.scss'
 import {Dashboard20,ChartTreemap20} from '@carbon/icons-react'
 import {Link} from 'react-router-dom'
+import dashboard from '../pictures/dashboard.jpg'
 
 const clasesIconsCard={
     dashIcon_container:true,
@@ -14,7 +15,7 @@ class CardCategory extends React.Component{
 
     return   (
         <div className="Card-container">
-            <div className="topSection_Card-container">
+            <div className="bottomSection_CardCategory-container">
                 <div id="typeTitle-topSection_Card">
                     <p id="typeTitle_typeTitle" className='typesText_card-Container'>Tipo de producto ejemplo</p>
                     <p id="nameTitle_typeTitle" className='nameText_card-Container'>Titulo ejemplo</p>
