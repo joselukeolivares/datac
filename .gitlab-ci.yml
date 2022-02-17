@@ -2,7 +2,7 @@ image: node 4.2.2
 
 pages:
   cache:
-    paths
+    paths:
     - node_modules/
     
   script:
