@@ -2,7 +2,7 @@
     background-color: white;
     width: 20rem;
     height: 10rem;
-    margin: 1rem 0rem;
+    margin: 1rem .5rem;
     border-radius: 1rem;
     position: relative;
 }
@@ -20,6 +20,7 @@
 .nameText_card-Container{
     color: #525252;
     font-size: 1rem;
+    text-decoration: none;
 }
 
 #typeTitle-topSection_Card{
@@ -28,10 +29,18 @@
     
 }
 
-.iconSection{
+.bottom_CardCategory-container{
     display: flex;
-    margin: 1rem 1rem;
+    position: relative;
+}
+
+.iconSection-Category{
+    display: flex;
+    margin: 0rem 1rem;
     justify-content: flex-end;
+    position: absolute;
+    right: 0rem;
+    top:-1rem;
 }
 
 .dashIcon_container{
@@ -62,4 +71,15 @@
 
 .link_container>a{
     text-decoration: none;
+}
+
+.top_CardCategory-container{    
+    height: 50%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-size: cover;
+}
+
+.dashboardImg{
+    background-image: url("../../pictures/dashboard.jpg");
 }

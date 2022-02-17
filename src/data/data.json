@@ -1,0 +1,24 @@
+{
+    "lastSearch":[
+        {"type":"Carbon Design","title":"Ventas Celulares","typeIcons":["dashboard","carbon"]},
+        {"type":"Tableau","title":"Ventas Ropa y Zapatos","typeIcons":["indicator"]},
+        {"type":"Tableau","title":"Ventas Muebles","typeIcons":["indicator"]},
+        {"type":"Tableau","title":"Ventas Muebles","typeIcons":["indicator"]}
+    ],
+    "home":{
+        "dashobards":[
+            {"name":"Ventas Celulares","type":"Carbon Design","typeIcons":["dashboard","carbon"]},
+            {"name":"Ventas Celulares","type":"Carbon Design","typeIcons":["dashboard","carbon"]},
+            {"name":"Ventas Celulares","type":"Carbon Design","typeIcons":["dashboard","carbon"]},
+            {"name":"Ventas semanales","type":"Tableau","typeIcons":["dashboard","carbon"]},
+            {"name":"Productos","type":"Power Bi","typeIcons":["dashboard","carbon"]}
+        ],
+        "indicadores":[
+            
+        ],
+        "rendicion":[],
+        "proyectosv":[],
+        "Tableros":[]
+
+    }
+}

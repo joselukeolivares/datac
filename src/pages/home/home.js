@@ -4,6 +4,9 @@ import '../../css/pages/home.scss'
 import TopBarLogged from "../../components/TopBarLogged";
 import HistoryCards from "../../components/HistoryCards";
 import Categories from '../../components/Categories'
+import { Footer } from "../../components/Footer";
+
+
 
 function Home (){
         return (
@@ -19,7 +22,9 @@ function Home (){
                 </div>
                 <div id="categories_container-Home">
                     <Categories></Categories>
-                </div>
+                </div>                
+                    <Footer></Footer>
+                
                 
         
             </div>
