@@ -1,17 +1,22 @@
-image: node 4.2.2
+image: node 14.15.1
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - rm -rf build
+  - CI=false npm install
 
 pages:
-  cache:
-    paths:
-    - node_modules/
-    
+  stage: deploy
   script:
-  - echo 'Domo...domo!'
-  - npm install hexo-cli -g
-  - npm install
-  - hexo deploy
+    - CI=false npm run build
+    - rm -rf public
+    - cp build/index.html build/404.html
+    - mv build public
   artifacts:
     paths:
-    - public
+      - public
   only:
     - master
