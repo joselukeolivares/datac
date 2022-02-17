@@ -18,7 +18,10 @@ function Category(){
                             <div className="dashIcon_container dashboardIcon">
                                 <Dashboard20/>
                             </div>
-                            <div className="nameCategory">Dashboards</div>
+                            <div className="nameCategory">
+                                <div></div>
+                                <div>Category</div>
+                            </div>
                         </div>
                         <div className="cardsCategory">
                             {cardsCategory.map(()=>{
