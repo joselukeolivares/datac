@@ -2,17 +2,13 @@ image: node:10.15.3
 
 pages:
   stage: deploy
-  cache:
-    paths:
-      - node_modules/
   script:
-    - npm install
-    - npm run build
-    - rm -rf public
-    - cp build/index.html build/404.html
-    - mv build public
+  - npm install
+  - npm run build
+  - rm -rf public
+  - mv build public
   artifacts:
     paths:
-      - public
+    - public # mandatory, other folder won't work
   only:
-    - master
+  - master # or dev, the branch you want to publish
