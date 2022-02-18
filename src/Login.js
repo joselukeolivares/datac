@@ -31,11 +31,10 @@ function Login() {
         <div>Iniciar sesión</div>
         <br/>
         <div className="inputs">
-        <TextInput type="email"placeholder="Correo electrónico"></TextInput>
+        <TextInput id="emailInput" type="email"placeholder="Correo electrónico"  labelText=""></TextInput>
          <br/>
          <br/>
-        <TextInput id="password" type="password"
-          placeholder="Contraseña"></TextInput>
+        <TextInput id="passwordInput" type="password" placeholder="Contraseña" labelText=""></TextInput>
           </div>  
           <br/>
           <br/>
