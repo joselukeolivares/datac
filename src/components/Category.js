@@ -5,37 +5,42 @@ import '../css/components/category.scss'
 import { Link } from "carbon-components-react";
 
 
-const categories=[1,2,3,4,5]
+let categoriesKeyList=[]
 const cardsCategory=[1,2,3,4,5]
-function Category(){
+function Category({categories}){
+    categoriesKeyList=Object.keys(categories)
+
 
     return (
         <React.Fragment>
-            {categories.map((category,i)=>{
-                return (
-                    <div key={`${i}`} className="categoryColumn">
+            
+            {categoriesKeyList.map((categoryKey)=>{
+
+                    const categoryObj=categories[categoryKey]
+   
+                    return (
+                        <div key={`${categoryKey}`} className="categoryColumn">
                         <div className="headerCategory">
-                            <div className="dashIcon_container dashboardIcon">
-                                <Dashboard20/>
+                            <div className={`dashIcon_container ${categoryKey}`} >                                
                             </div>
-                            <div className="nameCategory">
-                                <div className="icon "></div>
-                                <div>Category</div>
+                            <div className="nameCategory">                                
+                                <h4>{categoryObj.name}</h4>
                             </div>
                         </div>
                         <div className="cardsCategory">
-                            {cardsCategory.map((element,i)=>{
+                            {categoryObj.bag.map((element,i)=>{
                                 return (
-                                    <CardCategory key={`${i}`}></CardCategory>
+                                    <CardCategory key={`${i}`} metadata={element}></CardCategory>
                                 )
                             })}
                         </div>
                         <div className="linkMore">
                             <Link>312 más</Link>
                         </div>
-                    </div>
-                )
-            })}
+                        </div>
+                    )
+                })
+            }
 
 
 

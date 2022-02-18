@@ -3,22 +3,59 @@
         {"type":"Carbon Design","title":"Ventas Celulares","typeIcons":["dashboard","carbon"]},
         {"type":"Tableau","title":"Ventas Ropa y Zapatos","typeIcons":["indicator"]},
         {"type":"Tableau","title":"Ventas Muebles","typeIcons":["indicator"]},
-        {"type":"Tableau","title":"Ventas Muebles","typeIcons":["indicator"]}
+        {"type":"Tableau","title":"Ventas Muebles","typeIcons":["coppelBoard","tableauIcon"]}
     ],
     "categories":{
-        "dashobards":[
-            {"name":"Ventas Celulares","type":"Carbon Design","typeIcons":["dashboard","carbon"]},
-            {"name":"Ventas Celulares","type":"Carbon Design","typeIcons":["dashboard","carbon"]},
-            {"name":"Ventas Celulares","type":"Carbon Design","typeIcons":["dashboard","carbon"]},
-            {"name":"Ventas semanales","type":"Tableau","typeIcons":["dashboard","carbon"]},
-            {"name":"Productos","type":"Power Bi","typeIcons":["dashboard","carbon"]}
-        ],
-        "indicadores":[
-            
-        ],
-        "rendicion":[],
-        "proyectosv":[],
-        "Tableros":[]
+        "dashboardsCat":{
+            "name":"Dashboards",
+            "bag":[
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas semanales","type":"Tableau","typeCode":"Tableau","typeIcons":["dashboard","carbon"]},
+                {"name":"Productos","type":"Power Bi","typeCode":"PowerBi","typeIcons":["dashboard","carbon"]}
+            ]
+        },
+        "indicadoresCat":{
+            "name":"Indicadores",
+            "bag":[
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas semanales","type":"Tableau","typeCode":"Tableau","typeIcons":["dashboard","carbon"]},
+                {"name":"Productos","type":"Power Bi","typeCode":"PowerBi","typeIcons":["dashboard","carbon"]}
+            ]
+        },
+        "rendicionCat":{
+            "name":"Rendición de Cuentas",
+            "bag":[
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas semanales","type":"Tableau","typeCode":"Tableau","typeIcons":["dashboard","carbon"]},
+                {"name":"Productos","type":"Power Bi","typeCode":"PowerBi","typeIcons":["dashboard","carbon"]}
+            ]
+        },
+        "proyectos_vCat":{
+            "name":"Proyectos Visualización",
+            "bag":[
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas semanales","type":"Tableau","typeCode":"Tableau","typeIcons":["dashboard","carbon"]},
+                {"name":"Productos","type":"Power Bi","typeCode":"PowerBi","typeIcons":["dashboard","carbon"]}
+            ]
+        },
+        "TablerosCat":{
+            "name":"Dashboards",
+            "bag":[
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
+                {"name":"Ventas semanales","type":"Tableau","typeCode":"Tableau","typeIcons":["dashboard","carbon"]},
+                {"name":"Productos","type":"Power Bi","typeCode":"PowerBi","typeIcons":["dashboard","carbon"]}
+            ]
+        }
 
     }
 }

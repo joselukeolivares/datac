@@ -4,26 +4,25 @@ import '../css/components/historyCards.scss'
 
 
 
-class HistoryCards extends React.Component{
+function HistoryCards({history}){
 
-    cardsHistory=[1,2,3,4,5]    
+        let cardsHistory=[1,2,3,4,5]    
 
-    render(){
+    
 
     return    (
                 <React.Fragment>
                 <div id="cardsContainer">
                     <h3>Últimas búsquedas</h3>
                     <div className="CardsHist-Carrusel">
-                        {this.cardsHistory.map((element,i)=>{
-                            return (<Card key={`${i}`}></Card>)
+                        {history.map((element,i)=>{
+                            return (<Card key={`${i}`} cardInfo={element}></Card>)
                         })}
                     </div>
                 </div>
                 </React.Fragment>
             )
 
-    }
 }
 
 export default HistoryCards

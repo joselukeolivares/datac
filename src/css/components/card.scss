@@ -46,12 +46,46 @@
     margin-left: .5rem;
 }
 
-.dashboardIcon{
+.dashboard{
     background-color: #FF7EB6;
 }
 
-.chartD3Icon{
+.carbon{
+    background-color: #D0E2FF;
+}
+
+.indicator{
     background-color: #14B9B9;
+}
+
+.coppelBoard{
+    background-color: #E0E0E0;
+}
+
+.dashboardsCat{
+    background-image: url("../../icons/dashboard_icon.png");
+    background-size: contain;
+}
+
+.indicadoresCat{
+    background-image: url("../../icons/indicadores_icon.png");
+    background-size: contain;
+    
+}
+
+.rendicionCat{
+    background-image: url("../../icons/rendicion_icon.png");
+    background-size: contain;
+}
+
+.proyectos_vCat{
+    background-image: url("../../icons/proyectosV_icon.png");
+    background-size: contain;
+}
+
+.TablerosCat{
+    background-image: url("../../icons/tablero_icon.png");
+    background-size: contain;
 }
 
 .linkCotainer{
@@ -62,4 +96,15 @@
 
 .link_container>a{
     text-decoration: none;
+}
+
+.tableauIcon{
+    width: 30px;
+    height: 30px;
+    background-image: url("../../icons/tableau.png");
+    background-color: #D0E2FF;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;    
+    border-radius: 1.5rem;
 }
