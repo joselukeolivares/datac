@@ -50,6 +50,8 @@ class Buscador extends React.Component{
                     </div>
                     <div id="TextInput_Buscador">
                         <TextInput
+                        id="what_looking"
+                        labelText=""
                         placeholder={"What are you looking for today?"}
                         ></TextInput>
                     </div>

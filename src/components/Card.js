@@ -30,7 +30,7 @@ class Card extends React.Component{
             </div>
             <div className='linkCotainer'>
                 <div className="link_container">
-                    <Link className='linkCard'>Ver de nuevo</Link>
+                    <Link to="/" className='linkCard'>Ver de nuevo</Link>
                 </div>
             </div>
         </div>

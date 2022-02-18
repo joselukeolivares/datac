@@ -11,22 +11,22 @@ function Category(){
 
     return (
         <React.Fragment>
-            {categories.map((category)=>{
+            {categories.map((category,i)=>{
                 return (
-                    <div className="categoryColumn">
+                    <div key={`${i}`} className="categoryColumn">
                         <div className="headerCategory">
                             <div className="dashIcon_container dashboardIcon">
                                 <Dashboard20/>
                             </div>
                             <div className="nameCategory">
-                                <div></div>
+                                <div className="icon "></div>
                                 <div>Category</div>
                             </div>
                         </div>
                         <div className="cardsCategory">
-                            {cardsCategory.map(()=>{
+                            {cardsCategory.map((element,i)=>{
                                 return (
-                                    <CardCategory></CardCategory>
+                                    <CardCategory key={`${i}`}></CardCategory>
                                 )
                             })}
                         </div>

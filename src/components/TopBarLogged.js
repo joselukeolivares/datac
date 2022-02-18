@@ -9,7 +9,7 @@ class TopBarLogged extends React.Component{
         return (
             <div id="topBarLogged_container">
                 <div id="burgerMenu_container">
-                    <Menu32 class="carbon_icon"/>
+                    <Menu32 className="carbon_icon"/>
                     <div className='text'>Data Coppel</div>
                 </div>
                 <div id="loggedSearh-section">
@@ -20,6 +20,7 @@ class TopBarLogged extends React.Component{
                     <div id="Search_container">
                         <Search
                             id="search-1"
+                            labelText=""
                         placeHolderText="Search" />
                     </div>
                     <div id="carShop_container">

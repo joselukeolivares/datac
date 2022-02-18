@@ -15,8 +15,8 @@ class HistoryCards extends React.Component{
                 <div id="cardsContainer">
                     <h3>Últimas búsquedas</h3>
                     <div className="CardsHist-Carrusel">
-                        {this.cardsHistory.map(()=>{
-                            return (<Card></Card>)
+                        {this.cardsHistory.map((element,i)=>{
+                            return (<Card key={`${i}`}></Card>)
                         })}
                     </div>
                 </div>

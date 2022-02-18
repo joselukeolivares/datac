@@ -34,7 +34,7 @@ function Login() {
         <TextInput type="email"placeholder="Correo electrónico"></TextInput>
          <br/>
          <br/>
-        <TextInput  type="password"
+        <TextInput id="password" type="password"
           placeholder="Contraseña"></TextInput>
           </div>  
           <br/>
