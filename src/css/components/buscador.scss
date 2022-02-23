@@ -15,7 +15,7 @@
     margin: 1rem;
 }
 
-#searchIcon{
+.searchIcon{
 
     background-color: #0F62FE;
     width: 50px;
@@ -28,6 +28,7 @@
 
 svg.search_icon{
     fill: #FFFFFF;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px){
@@ -42,7 +43,7 @@ svg.search_icon{
         width: 100%;
     }
 
-    #Dropdown_Buscador,#TextInput_Buscador,#searchIcon{
+    #Dropdown_Buscador,#TextInput_Buscador,.searchIcon{
         display: flex;
         margin: 1rem 0%;
         justify-content: center;
@@ -61,7 +62,7 @@ svg.search_icon{
         
     }
 
-    #Dropdown_Buscador,#TextInput_Buscador,#searchIcon{
+    #Dropdown_Buscador,#TextInput_Buscador,.searchIcon{
         display: flex;
         margin: 1rem 0%;
         justify-content: center;

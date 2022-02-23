@@ -2,11 +2,12 @@ import React from "react";
 import {Dropdown,TextInput} from 'carbon-components-react'
 import {Search32} from '@carbon/icons-react'
 import '../../css/components/buscador.scss'
+import { Redirect } from "react-router-dom";
 
 
-class Buscador extends React.Component{
+function Buscador(){
 
-     items = [
+  let   items = [
         {
           id: 'option-0',
           text: 'Dashboards',
@@ -35,7 +36,20 @@ class Buscador extends React.Component{
         },
       ];
 
-    render(){
+      let [category,setCategory]=React.useState({})
+      let [redirect,setRedirect]=React.useState(false)
+
+      function searchTo() {
+        
+        setRedirect(true)
+      }
+
+        if(redirect){
+          return (<Redirect to={{
+            pathname: '/resultados',
+            state: { cat: category }
+        }} />)
+        }
         return (
             <div id="contenedor_Buscador" >
                     
@@ -43,9 +57,13 @@ class Buscador extends React.Component{
                     <Dropdown
                         id="DropdownCarbon_buscador"                                                
                         label="Selecciona Tipo de Visualización"
-                        items={this.items}
+                        items={items}
                         itemToString={(item) => (item ? item.text : '')}
-                        
+                        onChange={({selectedItem})=>{
+                          console.log(selectedItem)
+                          setCategory(selectedItem)
+                          
+                        }}
                         />
                     </div>
                     <div id="TextInput_Buscador">
@@ -55,13 +73,13 @@ class Buscador extends React.Component{
                         placeholder={"What are you looking for today?"}
                         ></TextInput>
                     </div>
-                    <div id="searchIcon">
-                            <Search32 className="search_icon"/>
+                    <div className="searchIcon" onClick={searchTo} >
+                            <Search32  className="search_icon"/>
                     </div>    
   
             </div>
         )
-    }
+    
 
 
 }

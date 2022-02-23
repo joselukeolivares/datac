@@ -9,6 +9,7 @@ import data from '../../data/data.json'
 
 
 
+
 function Home (){
     console.log("hello there")
     console.log(data)

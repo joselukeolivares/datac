@@ -2,14 +2,22 @@ import React from 'react'
 import {Menu32,UserFilled32,ShoppingCart32} from '@carbon/icons-react'
 import Search from 'carbon-components-react/lib/components/Search'
 import '../css/components/topBarLogged.scss'
+import BurguerMenu from './BurguerMenu'
 
-class TopBarLogged extends React.Component{
 
-    render(){
+function TopBarLogged (){
+
+    
+
+
+
+
+    
         return (
             <div id="topBarLogged_container">
-                <div id="burgerMenu_container">
-                    <Menu32 className="carbon_icon"/>
+                  <BurguerMenu/>
+                <div id="burgerMenu_container">                    
+                       
                     <div className='text'>Data Coppel</div>
                 </div>
                 <div id="loggedSearh-section">
@@ -31,7 +39,7 @@ class TopBarLogged extends React.Component{
 
             </div>
         )
-    }
+    
 }
 
 export default TopBarLogged
