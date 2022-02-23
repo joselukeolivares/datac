@@ -2,14 +2,16 @@ import React from "react";
 import 'carbon-components/css/carbon-components.min.css';
 import { DataTable, TableContainer, Table, TableHead, TableRow, TableHeader, TableBody, TableCell } from 'carbon-components-react';
 import { headerData, rowData } from '../data/resultadosData'
-import {Dashboard20,ChartTreemap20,Linux20,ChartLine20,TableSplit20,Carbon20} from '@carbon/icons-react'
 import Buscador from "../components/buscador/buscadorIBM";
-import '../css/pages/resultados.scss'
+import '../css/pages/resultados.css'
 import TopBarLogged from "../components/TopBarLogged";
 
 
 
+
 function Resultados({}){
+
+
 
     let header=["","Activos","Resultados"]
     let body=[

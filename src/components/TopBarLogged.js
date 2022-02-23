@@ -1,7 +1,7 @@
 import React from 'react'
 import {Menu32,UserFilled32,ShoppingCart32} from '@carbon/icons-react'
 import Search from 'carbon-components-react/lib/components/Search'
-import '../css/components/topBarLogged.scss'
+import '../css/components/topBarLogged.css'
 import BurguerMenu from './BurguerMenu'
 
 

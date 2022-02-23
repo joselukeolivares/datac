@@ -5,7 +5,7 @@ import {MetaDataDashboad} from './MetaDataDashboard'
 import { LineChart } from "@carbon/charts-react";
 import "@carbon/charts/styles.css";
 
-import '../css/components/dashboardCarbon.scss'
+import '../css/components/dashboardCarbon.css'
 
 function DashboardCarbon(){
 

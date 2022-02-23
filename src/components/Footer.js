@@ -1,7 +1,7 @@
 import React from 'react'
 import coppelLogo_png from '../pictures/Coppel.png'
 import cienciaD_png from '../pictures/CD.png'
-import '../css/components/footer.scss'
+import '../css/components/footer.css'
 
 function Footer(){
     return (

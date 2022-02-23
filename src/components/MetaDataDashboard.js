@@ -1,6 +1,6 @@
 import React from "react";
 import {Favorite32,ArrowDown32} from '@carbon/icons-react'
-import '../css/components/MetaDataDashboard.scss'
+import '../css/components/MetaDataDashboard.css'
 import RopaImg from "../pictures/ropa.png"
 
 function MetaDataDashboad(){

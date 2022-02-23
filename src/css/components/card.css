@@ -63,29 +63,34 @@
 }
 
 .dashboardsCat{
-    background-image: url("../../icons/dashboard_icon.png");
+    /*background-image: url("../../icons/dashboard_icon.png");*/
     background-size: contain;
+    background-color: #FF7EB6;
 }
 
 .indicadoresCat{
-    background-image: url("../../icons/indicadores_icon.png");
+    /*background-image: url("../../icons/indicadores_icon.png");*/
     background-size: contain;
+    background-color: #14B9B9;
     
 }
 
 .rendicionCat{
-    background-image: url("../../icons/rendicion_icon.png");
+    /*background-image: url("../../icons/rendicion_icon.png");*/
     background-size: contain;
+    background-color: #BB96FB;
 }
 
 .proyectos_vCat{
-    background-image: url("../../icons/proyectosV_icon.png");
+    /*background-image: url("../../icons/proyectosV_icon.png");*/
     background-size: contain;
+    background-color: #F1C21B;
 }
 
 .TablerosCat{
-    background-image: url("../../icons/tablero_icon.png");
+    /*background-image: url("../../icons/tablero_icon.png");*/
     background-size: contain;
+    background-color: #67CE51;
 }
 
 .linkCotainer{

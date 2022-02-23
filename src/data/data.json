@@ -3,13 +3,14 @@
         {"type":"Carbon Design","title":"Ventas Celulares","typeIcons":["dashboard","carbon"]},
         {"type":"Tableau","title":"Ventas Ropa y Zapatos","typeIcons":["indicator"]},
         {"type":"Tableau","title":"Ventas Muebles","typeIcons":["indicator"]},
-        {"type":"Tableau","title":"Ventas Muebles","typeIcons":["coppelBoard","tableauIcon"]}
+        {"type":"Tableau","title":"Ventas Muebles","typeIcons":["coppelBoard","tableauIcon","indicator"]}
     ],
     "categories":{
         "dashboardsCat":{
             "name":"Dashboards",
+            "typeIcon":"dashboard",
             "bag":[
-                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["carbon"]},
+                {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
                 {"name":"Ventas semanales","type":"Tableau","typeCode":"Tableau","typeIcons":["dashboard","carbon"]},
@@ -18,6 +19,7 @@
         },
         "indicadoresCat":{
             "name":"Indicadores",
+            "typeIcon":"indicator",
             "bag":[
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
@@ -28,6 +30,7 @@
         },
         "rendicionCat":{
             "name":"Rendición de Cuentas",
+            "typeIcon":"report",
             "bag":[
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
@@ -38,6 +41,7 @@
         },
         "proyectos_vCat":{
             "name":"Proyectos Visualización",
+            "typeIcon":"dataviz",
             "bag":[
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
@@ -47,7 +51,8 @@
             ]
         },
         "TablerosCat":{
-            "name":"Dashboards",
+            "name":"Tableros",
+            "typeIcon":"dashcat",
             "bag":[
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},
                 {"name":"Ventas Celulares","type":"Carbon Design","typeCode":"CarbonDesign","typeIcons":["dashboard","carbon"]},

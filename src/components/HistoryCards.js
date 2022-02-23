@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card"
-import '../css/components/historyCards.scss'
+import '../css/components/historyCards.css'
 
 
 

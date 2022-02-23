@@ -1,6 +1,6 @@
 import React from "react";
 import Buscador from "../../components/buscador/buscadorIBM";
-import '../../css/pages/home.scss'
+import '../../css/pages/home.css'
 import TopBarLogged from "../../components/TopBarLogged";
 import HistoryCards from "../../components/HistoryCards";
 import Categories from '../../components/Categories'
@@ -13,6 +13,9 @@ import data from '../../data/data.json'
 function Home (){
     console.log("hello there")
     console.log(data)
+
+
+
         return (
             <div id="container_Home">
                 <div id="topBarLooged-container_home">

@@ -1,7 +1,7 @@
 import React from "react";
 import {Route,Switch} from 'react-router-dom'
 import App from "./App";
-import Home from "./pages/home/home";
+import Home from "./pages/home/Home";
 import Login from "./Login"
 import { DashboardCarbon } from "./components/DashboardCarbon";
 import Resultados from './pages/Resultados'

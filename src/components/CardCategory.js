@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/components/cardCategory.scss'
+import '../css/components/cardCategory.css'
 import {Dashboard20,ChartTreemap20,Linux20,ChartLine20,TableSplit20,Carbon20} from '@carbon/icons-react'
 import {Link} from 'react-router-dom'
 import dashboard from '../pictures/dashboard.jpg'

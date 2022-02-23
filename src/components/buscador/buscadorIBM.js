@@ -1,7 +1,7 @@
 import React from "react";
 import {Dropdown,TextInput} from 'carbon-components-react'
 import {Search32} from '@carbon/icons-react'
-import '../../css/components/buscador.scss'
+import '../../css/components/buscador.css'
 import { Redirect } from "react-router-dom";
 
 

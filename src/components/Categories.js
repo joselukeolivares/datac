@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card"
-import '../css/components/categoriesContainer.scss'
+import '../css/components/categoriesContainer.css'
 import { Category } from "./Category";
 
 function Categories({categories}){
