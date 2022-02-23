@@ -1,6 +1,6 @@
 import React from "react";
 import Buscador from "../../components/buscador/buscadorIBM";
-import '../../css/pages/home.css'
+//import '../../css/pages/home.css'
 import TopBarLogged from "../../components/TopBarLogged";
 import HistoryCards from "../../components/HistoryCards";
 import Categories from '../../components/Categories'

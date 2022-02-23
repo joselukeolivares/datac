@@ -3,7 +3,7 @@ import 'carbon-components/css/carbon-components.min.css';
 import { DataTable, TableContainer, Table, TableHead, TableRow, TableHeader, TableBody, TableCell } from 'carbon-components-react';
 import { headerData, rowData } from '../data/resultadosData'
 import Buscador from "../components/buscador/buscadorIBM";
-import '../css/pages/resultados.css'
+//import '../css/pages/resultados.css'
 import TopBarLogged from "../components/TopBarLogged";
 
 
